@@ -1,0 +1,6 @@
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/Example/Example/bin/Debug/Example.dll
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/Example/Example/bin/Debug/Example.pdb
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/Example/Example/obj/Debug/Example.csprojResolveAssemblyReference.cache
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/Example/Example/obj/Debug/Example.csproj.CoreCompileInputs.cache
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/Example/Example/obj/Debug/Example.dll
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/Example/Example/obj/Debug/Example.pdb

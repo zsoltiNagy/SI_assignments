@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/szabadon/codecool/dotNET/SI_assingments/1stweek/ConsoleApplication/ConsoleApplication/ConsoleApplication.csproj",
+    "projectName": "ConsoleApplication",
+    "projectPath": "/home/szabadon/codecool/dotNET/SI_assingments/1stweek/ConsoleApplication/ConsoleApplication/ConsoleApplication.csproj",
+    "outputPath": "/home/szabadon/codecool/dotNET/SI_assingments/1stweek/ConsoleApplication/ConsoleApplication/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
