@@ -5,17 +5,17 @@ namespace CreateClass
     public class Room
     {
         static Random generator = new Random();
-        public int roomNumber;
+        private int number;
 
         public Room()
         {
-            roomNumber = generator.Next(100);
+            number = generator.Next(100);
         }
         
-        public int RoomNumber
+        public int Number
         {
-            get => roomNumber;
-            set => roomNumber = value;
+            get => number;
+            set => number = value;
         }
     }
 }

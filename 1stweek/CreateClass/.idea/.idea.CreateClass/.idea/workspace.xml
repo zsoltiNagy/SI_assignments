@@ -11,50 +11,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateClass/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <marker date="1509198325021" expanded="false" signature="6:73" ph="..." />
-                <marker date="1509198325021" expanded="true" signature="96:502" ph="{...}" />
-                <marker date="1509198325021" expanded="true" signature="125:500" ph="{...}" />
-                <marker date="1509198325021" expanded="true" signature="235:476" ph="{...}" />
-                <marker date="1509198325021" expanded="true" signature="384:466" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CreateClass/Employee.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-              <folding>
-                <marker date="1509198390705" expanded="true" signature="56:1132" ph="{...}" />
-                <marker date="1509198390705" expanded="true" signature="93:1130" ph="{...}" />
-                <marker date="1509198390705" expanded="true" signature="286:454" ph="{...}" />
-                <marker date="1509198390705" expanded="true" signature="349:419" ph="{...}" />
-                <marker date="1509198390705" expanded="true" signature="492:744" ph="{...}" />
-                <marker date="1509198390705" expanded="true" signature="794:855" ph="{...}" />
-                <marker date="1509198390705" expanded="true" signature="906:1124" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Room.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CreateClass/Room.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
-                <marker date="1509198325041" expanded="true" signature="36:371" ph="{...}" />
-                <marker date="1509198325041" expanded="true" signature="60:369" ph="{...}" />
-                <marker date="1509198325041" expanded="true" signature="168:234" ph="{...}" />
-                <marker date="1509198325041" expanded="true" signature="273:363" ph="{...}" />
+                <marker date="1509211334932" expanded="true" signature="36:352" ph="{...}" />
+                <marker date="1509211334932" expanded="true" signature="60:350" ph="{...}" />
+                <marker date="1509211334932" expanded="true" signature="165:227" ph="{...}" />
+                <marker date="1509211334932" expanded="true" signature="262:344" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -94,6 +60,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Employee.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateClass/Employee.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <marker date="1509211274038" expanded="false" signature="6:47" ph="..." />
+                <marker date="1509211274038" expanded="true" signature="70:1748" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="120:1746" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="261:319" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="350:507" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="597:765" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="660:730" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="801:1047" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="1136:1370" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="1420:1481" ph="{...}" />
+                <marker date="1509211274038" expanded="true" signature="1532:1740" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateClass/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <marker date="1509211274026" expanded="false" signature="6:73" ph="..." />
+                <marker date="1509211274026" expanded="true" signature="96:1032" ph="{...}" />
+                <marker date="1509211274026" expanded="true" signature="125:1030" ph="{...}" />
+                <marker date="1509211274026" expanded="true" signature="230:303" ph="{...}" />
+                <marker date="1509211274026" expanded="true" signature="350:715" ph="{...}" />
+                <marker date="1509211274026" expanded="true" signature="765:1006" ph="{...}" />
+                <marker date="1509211274026" expanded="true" signature="914:996" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -108,10 +114,10 @@
       <list>
         <option value="$PROJECT_DIR$/CreateClass/Properties/Person.cs" />
         <option value="$PROJECT_DIR$/CreateClass/Genders.cs" />
-        <option value="$PROJECT_DIR$/CreateClass/Room.cs" />
         <option value="$PROJECT_DIR$/CreateClass/Person.cs" />
-        <option value="$PROJECT_DIR$/CreateClass/Program.cs" />
         <option value="$PROJECT_DIR$/CreateClass/Employee.cs" />
+        <option value="$PROJECT_DIR$/CreateClass/Program.cs" />
+        <option value="$PROJECT_DIR$/CreateClass/Room.cs" />
       </list>
     </option>
   </component>
@@ -205,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509192701813</updated>
       <workItem from="1509192706599" duration="2520000" />
-      <workItem from="1509196481065" duration="2226000" />
+      <workItem from="1509196481065" duration="5173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4746000" />
+    <option name="totallyTimeSpent" value="7693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,11 +269,13 @@
         <state relative-caret-position="252">
           <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
-            <marker date="1509198325021" expanded="false" signature="6:73" ph="..." />
-            <marker date="1509198325021" expanded="true" signature="96:502" ph="{...}" />
-            <marker date="1509198325021" expanded="true" signature="125:500" ph="{...}" />
-            <marker date="1509198325021" expanded="true" signature="235:476" ph="{...}" />
-            <marker date="1509198325021" expanded="true" signature="384:466" ph="{...}" />
+            <marker date="1509211274026" expanded="false" signature="6:73" ph="..." />
+            <marker date="1509211274026" expanded="true" signature="96:1032" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="125:1030" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="230:303" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="350:715" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="765:1006" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="914:996" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -312,19 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateClass/Room.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <marker date="1509198325041" expanded="true" signature="36:371" ph="{...}" />
-            <marker date="1509198325041" expanded="true" signature="60:369" ph="{...}" />
-            <marker date="1509198325041" expanded="true" signature="168:234" ph="{...}" />
-            <marker date="1509198325041" expanded="true" signature="273:363" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CreateClass/Person.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -345,32 +340,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateClass/Program.cs">
+    <entry file="file://$PROJECT_DIR$/CreateClass/Employee.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="79">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1509198325021" expanded="false" signature="6:73" ph="..." />
-            <marker date="1509198325021" expanded="true" signature="96:502" ph="{...}" />
-            <marker date="1509198325021" expanded="true" signature="125:500" ph="{...}" />
-            <marker date="1509198325021" expanded="true" signature="235:476" ph="{...}" />
-            <marker date="1509198325021" expanded="true" signature="384:466" ph="{...}" />
+            <marker date="1509211274038" expanded="false" signature="6:47" ph="..." />
+            <marker date="1509211274038" expanded="true" signature="70:1748" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="120:1746" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="261:319" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="350:507" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="597:765" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="660:730" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="801:1047" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="1136:1370" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="1420:1481" ph="{...}" />
+            <marker date="1509211274038" expanded="true" signature="1532:1740" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateClass/Employee.cs">
+    <entry file="file://$PROJECT_DIR$/CreateClass/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="40" column="60" lean-forward="false" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+        <state relative-caret-position="27">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <marker date="1509198390705" expanded="true" signature="56:1132" ph="{...}" />
-            <marker date="1509198390705" expanded="true" signature="93:1130" ph="{...}" />
-            <marker date="1509198390705" expanded="true" signature="286:454" ph="{...}" />
-            <marker date="1509198390705" expanded="true" signature="349:419" ph="{...}" />
-            <marker date="1509198390705" expanded="true" signature="492:744" ph="{...}" />
-            <marker date="1509198390705" expanded="true" signature="794:855" ph="{...}" />
-            <marker date="1509198390705" expanded="true" signature="906:1124" ph="{...}" />
+            <marker date="1509211274026" expanded="false" signature="6:73" ph="..." />
+            <marker date="1509211274026" expanded="true" signature="96:1032" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="125:1030" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="230:303" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="350:715" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="765:1006" ph="{...}" />
+            <marker date="1509211274026" expanded="true" signature="914:996" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateClass/Room.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1509211334932" expanded="true" signature="36:352" ph="{...}" />
+            <marker date="1509211334932" expanded="true" signature="60:350" ph="{...}" />
+            <marker date="1509211334932" expanded="true" signature="165:227" ph="{...}" />
+            <marker date="1509211334932" expanded="true" signature="262:344" ph="{...}" />
           </folding>
         </state>
       </provider>
