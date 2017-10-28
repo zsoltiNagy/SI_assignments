@@ -10,10 +10,13 @@ namespace CreateClass
         public static void Main(string[] args)
         {
             Person.PersonFactory(people, 10);
-            foreach (Person person in people)
+            Employee.EmployeeFactory(people, 10);
+            foreach (var person in people)
             {
                 Console.WriteLine(person.ToString());
             }
         }
+        
+        
     }
 }

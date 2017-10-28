@@ -8,20 +8,27 @@ namespace CreateClass
 {
     public class Person
     {
-        private string name;
-        private DateTime birthDate;
-        private Genders gender;
-        static Random generator = new Random();
+        protected string name;
+        protected DateTime birthDate;
+        protected Genders gender;
+        protected static Random generator = new Random();
 
         public static List<Person> PersonFactory(List<Person> list, int count)
         {
-            for (int i = 0; i < count; i++)
+            for (var step = 0; step < count; step++)
             {
                 list.Add(new Person(RandomName(), RandomDay(), RandomGender()));
             }
             return list;
         }
 
+        protected Person()
+        {
+            name = RandomName();
+            birthDate = RandomDay();
+            gender = RandomGender();
+        }
+        
         private Person(string name, DateTime birthDate, Genders gender)
         {
             this.name = name;
@@ -29,20 +36,20 @@ namespace CreateClass
             this.gender = gender;
         }
 
-        private static string RandomName()
+        protected static string RandomName()
         {
             return Path.GetRandomFileName().Replace(".", string.Empty);
         }
         
-        private static Genders RandomGender()
+        protected static Genders RandomGender()
         {
             return generator.Next(100) < 50 ? Genders.Female : Genders.Male;
         }
 
-        private static DateTime RandomDay()
+        protected static DateTime RandomDay()
         {
-            DateTime start = new DateTime(2000, 1, 1);
-            int range = (DateTime.Today - start).Days;
+            var start = new DateTime(2000, 1, 1);
+            var range = (DateTime.Today - start).Days;
             return start.AddDays(generator.Next(range));
 
         }
