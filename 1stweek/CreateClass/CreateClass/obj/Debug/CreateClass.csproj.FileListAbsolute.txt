@@ -1,0 +1,6 @@
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/CreateClass/CreateClass/obj/Debug/CreateClass.csprojResolveAssemblyReference.cache
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/CreateClass/CreateClass/obj/Debug/CreateClass.csproj.CoreCompileInputs.cache
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/CreateClass/CreateClass/bin/Debug/CreateClass.exe
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/CreateClass/CreateClass/bin/Debug/CreateClass.pdb
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/CreateClass/CreateClass/obj/Debug/CreateClass.exe
+/home/szabadon/codecool/dotNET/SI_assingments/1stweek/CreateClass/CreateClass/obj/Debug/CreateClass.pdb
