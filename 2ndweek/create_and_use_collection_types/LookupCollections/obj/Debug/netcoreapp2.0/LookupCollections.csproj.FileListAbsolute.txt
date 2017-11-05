@@ -1,0 +1,10 @@
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\bin\Debug\netcoreapp2.0\LookupCollections.deps.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\bin\Debug\netcoreapp2.0\LookupCollections.runtimeconfig.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\bin\Debug\netcoreapp2.0\LookupCollections.runtimeconfig.dev.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\bin\Debug\netcoreapp2.0\LookupCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\bin\Debug\netcoreapp2.0\LookupCollections.pdb
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\obj\Debug\netcoreapp2.0\LookupCollections.csproj.CoreCompileInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\obj\Debug\netcoreapp2.0\LookupCollections.AssemblyInfoInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\obj\Debug\netcoreapp2.0\LookupCollections.AssemblyInfo.cs
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\obj\Debug\netcoreapp2.0\LookupCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\LookupCollections\obj\Debug\netcoreapp2.0\LookupCollections.pdb

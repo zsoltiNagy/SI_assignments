@@ -1,0 +1,11 @@
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\bin\Debug\netcoreapp2.0\SequentialCollections.deps.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\bin\Debug\netcoreapp2.0\SequentialCollections.runtimeconfig.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\bin\Debug\netcoreapp2.0\SequentialCollections.runtimeconfig.dev.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\bin\Debug\netcoreapp2.0\SequentialCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\bin\Debug\netcoreapp2.0\SequentialCollections.pdb
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\obj\Debug\netcoreapp2.0\SequentialCollections.csprojResolveAssemblyReference.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\obj\Debug\netcoreapp2.0\SequentialCollections.csproj.CoreCompileInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\obj\Debug\netcoreapp2.0\SequentialCollections.AssemblyInfoInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\obj\Debug\netcoreapp2.0\SequentialCollections.AssemblyInfo.cs
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\obj\Debug\netcoreapp2.0\SequentialCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\SequentialCollections\obj\Debug\netcoreapp2.0\SequentialCollections.pdb

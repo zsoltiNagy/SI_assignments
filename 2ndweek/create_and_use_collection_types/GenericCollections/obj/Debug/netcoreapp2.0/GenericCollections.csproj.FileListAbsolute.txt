@@ -1,0 +1,10 @@
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\bin\Debug\netcoreapp2.0\GenericCollections.deps.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\bin\Debug\netcoreapp2.0\GenericCollections.runtimeconfig.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\bin\Debug\netcoreapp2.0\GenericCollections.runtimeconfig.dev.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\bin\Debug\netcoreapp2.0\GenericCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\bin\Debug\netcoreapp2.0\GenericCollections.pdb
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\obj\Debug\netcoreapp2.0\GenericCollections.csproj.CoreCompileInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\obj\Debug\netcoreapp2.0\GenericCollections.AssemblyInfoInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\obj\Debug\netcoreapp2.0\GenericCollections.AssemblyInfo.cs
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\obj\Debug\netcoreapp2.0\GenericCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\GenericCollections\obj\Debug\netcoreapp2.0\GenericCollections.pdb

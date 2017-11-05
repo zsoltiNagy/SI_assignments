@@ -1,0 +1,10 @@
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\bin\Debug\netcoreapp2.0\DictionaryCollections.deps.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\bin\Debug\netcoreapp2.0\DictionaryCollections.runtimeconfig.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\bin\Debug\netcoreapp2.0\DictionaryCollections.runtimeconfig.dev.json
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\bin\Debug\netcoreapp2.0\DictionaryCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\bin\Debug\netcoreapp2.0\DictionaryCollections.pdb
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.csproj.CoreCompileInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.AssemblyInfoInputs.cache
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.AssemblyInfo.cs
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.dll
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.pdb
