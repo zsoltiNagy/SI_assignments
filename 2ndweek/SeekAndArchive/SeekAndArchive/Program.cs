@@ -1,59 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
+using System.Threading;
 
 namespace SeekAndArchive
 {
     class Program
     {
+        static List<FileInfo> FoundFiles;
+        static List<FileSystemWatcher> watchers;
+        static List<DirectoryInfo> archiveDirs;
+
         static void Main(string[] args)
         {
-            string userInput = "";
-            do
+            string fileName = GetUserInputFileName();
+            DirectoryInfo rootDir = GetUserInputRootDirectory();
+            FoundFiles = new List<FileInfo>();
+            watchers = new List<FileSystemWatcher>();
+
+            if (rootDir == null)
             {
-                var fileName = GetUserInputFileName();
-                var path = GetUserInputPath();
-                SearchFiles(fileName, path);
-                Console.WriteLine("Press any key to continue or press 'x' to exit the program.");
-                userInput = Console.ReadLine();
-            } while (!userInput.Equals("x"));
+                return;
+            }
+
+            if (!rootDir.Exists)
+            {
+                Console.WriteLine("The specified directory does not exist.");
+                Console.WriteLine("Try something like: " + Environment.CurrentDirectory);
+                return;
+            }
+
+            RecursiveSearch(FoundFiles, fileName, rootDir);
+            Console.WriteLine("\nFound {0} files.", FoundFiles.Count);
+            foreach (FileInfo fil in FoundFiles)
+            {
+                Console.WriteLine("{0}", fil.FullName);
+                FileSystemWatcher watcher = new FileSystemWatcher(fil.DirectoryName, fil.Name);
+                watcher.Changed += File_Changed;
+                watcher.Created += File_Created;
+                watcher.Renamed += File_Renamed;
+                watcher.Deleted += File_Deleted;
+                watcher.EnableRaisingEvents = true;
+                watchers.Add(watcher);
+            }
+
+            archiveDirs = new List<DirectoryInfo>();
+            for (int i = 0; i < FoundFiles.Count; i++)
+            {
+                archiveDirs.Add(Directory.CreateDirectory("archive" + i.ToString()));
+            }
+
+            while (true)
+            {
+                Console.ReadKey();
+            }
         }
 
-        static void SearchFiles(string fileName, string path)
+        static void RecursiveSearch(List<FileInfo> foundFiles, string fileName, DirectoryInfo currentDirectory)
         {
-            try
+            foreach (FileInfo fil in currentDirectory.GetFiles(fileName))
             {
-                string[] files = Directory.GetFiles(path, fileName, SearchOption.AllDirectories);
-                var fileList = new List<string>(files);
-                var fullNames = files.Select(file => new FileInfo(file).FullName).ToArray();
-                PrintFileCount(fileList);
-                PrintFileNames(files);
+                foundFiles.Add(fil);
             }
-            catch (UnauthorizedAccessException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (ArgumentException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (DirectoryNotFoundException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-        }
 
-        static void PrintFileCount(List<string> files)
-        {
-            Console.WriteLine(string.Format("We found {0} files matching your parameters.", files.Count));
-        }
-
-        static void PrintFileNames(string[] files)
-        {
-            foreach (var file in files)
+            foreach ( DirectoryInfo dir in currentDirectory.GetDirectories())
             {
-                Console.WriteLine(file);
+                try
+                {
+                    RecursiveSearch(foundFiles, fileName, dir);
+                }
+                catch (UnauthorizedAccessException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
         }
 
@@ -61,18 +82,86 @@ namespace SeekAndArchive
         {
             Console.WriteLine("Give me the name of the file:");
             string fileName = @"" + Console.ReadLine();
+            if (fileName.Length < 1)
+            {
+                fileName = "*.*";
+            }
             fileName.TrimEnd('.');
-            if (fileName.Split('.').Length < 2)
+
+            if (!fileName.Contains('.') || fileName.Split('.').Length < 2)
             {
                 fileName = fileName + ".*";
             }
             return fileName;
         }
 
-        static string GetUserInputPath()
+        static DirectoryInfo GetUserInputRootDirectory()
         {
-            Console.WriteLine("Give me the path to the directory:");
-            return @"" + Console.ReadLine();
+            Console.WriteLine("Give me the name of the root directory:");
+            try
+            {
+                return new DirectoryInfo(@"" + Console.ReadLine());
+            } catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message + " An empty string is not enough.");
+            }
+            return null;
         }
+
+        static void ArchiveFile(DirectoryInfo archiveDir, FileInfo fileToArchive)
+        {
+            // Function tries to open the file, in case of IOException it tries it again after a second
+            Boolean knockKnock = true;
+            while (knockKnock)
+            {
+                try
+                {
+                    fileToArchive.OpenRead();
+                    knockKnock = false;
+                }
+                catch (IOException e)
+                {
+                    Console.WriteLine(e.Message);
+                    Thread.Sleep(1000);
+                }
+            }
+            FileStream input = fileToArchive.OpenRead();
+            FileStream output = File.Create(archiveDir.FullName + @"\" + fileToArchive.Name + ".gz");
+            GZipStream Compressor = new GZipStream(output, CompressionMode.Compress);
+            int b = input.ReadByte();
+            while ( b!= -1)
+            {
+                Compressor.WriteByte((byte)b);
+                b = input.ReadByte();
+            }
+            Compressor.Close();
+            input.Close();
+            output.Close();
+        }
+
+        static void File_Changed(object sender, FileSystemEventArgs e)
+        {
+            Console.WriteLine("File: {0} {1}", e.FullPath, e.ChangeType);
+            CallArchiveFile(sender);
+        }
+
+        static void File_Deleted(object sender, FileSystemEventArgs e)
+        {
+            Console.WriteLine("File: {0} {1}", e.FullPath, e.ChangeType);
+            //We should also delete it from the list
+        }
+
+        static void File_Renamed(object sender, FileSystemEventArgs e)
+        {
+            Console.WriteLine("File: {0} {1}", e.FullPath, e.ChangeType);
+        }
+
+        static void CallArchiveFile(object sender)
+        {
+            FileSystemWatcher senderWatcher = (FileSystemWatcher)sender;
+            int index = watchers.IndexOf(senderWatcher, 0);
+            ArchiveFile(archiveDirs[index], FoundFiles[index]);
+        }
+
     }
 }
