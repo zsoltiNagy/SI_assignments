@@ -8,3 +8,4 @@ C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\Dictionary
 C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.AssemblyInfo.cs
 C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.dll
 C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.pdb
+C:\Users\Zsolt Nagy\dotNET\SI\2ndweek\create_and_use_collection_types\DictionaryCollections\obj\Debug\netcoreapp2.0\DictionaryCollections.csprojResolveAssemblyReference.cache

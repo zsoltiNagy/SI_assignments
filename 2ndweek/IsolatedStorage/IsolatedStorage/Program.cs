@@ -12,7 +12,6 @@ namespace IsolatedStorage
             IsolatedStorageFileStream userStream = new IsolatedStorageFileStream("UserSettings.set", FileMode.Create, userStore);
             StreamWriter userWriter = new StreamWriter(userStream);
             userWriter.WriteLine("User Prefs");
-            userWriter.WriteLine("hablablablabla!4!");
             userWriter.Close();
             string[] files = userStore.GetFileNames("UserSettings.set");
             if (files.Length == 0)

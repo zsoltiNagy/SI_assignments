@@ -39,7 +39,6 @@ namespace SeekAndArchive
                 Console.WriteLine("{0}", fil.FullName);
                 FileSystemWatcher watcher = new FileSystemWatcher(fil.DirectoryName, fil.Name);
                 watcher.Changed += File_Changed;
-                watcher.Created += File_Created;
                 watcher.Renamed += File_Renamed;
                 watcher.Deleted += File_Deleted;
                 watcher.EnableRaisingEvents = true;
@@ -118,6 +117,7 @@ namespace SeekAndArchive
                 {
                     fileToArchive.OpenRead();
                     knockKnock = false;
+                    break;
                 }
                 catch (IOException e)
                 {
